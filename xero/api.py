@@ -6,7 +6,7 @@ class Xero(object):
 
     OBJECT_LIST = (u'Contacts', u'Accounts', u'CreditNotes',
                    u'Currencies', u'Invoices', u'Journals', u'Organisations',
-                   u'Payments', u'Reports', u'TaxRates', 
+                   u'Payments', u'Reports', u'TaxRates', u'BankTransactions',
                    u'TrackingCategories')
 
     def __init__(self, credentials):
